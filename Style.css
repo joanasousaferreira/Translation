@@ -1,0 +1,48 @@
+body {
+	text-align: center;
+	font-family: arial;
+	background-image: url(imagens/sofa.jpg);
+	background-size: cover;
+}
+
+h1 {
+	font-size: 70px;
+	padding-top: 120px;
+	text-shadow: 2px 2px 2px black;
+	margin-bottom: 5px;
+	color: white;
+}
+p {
+	font-size: 25px;
+	margin-bottom: 60px;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+}
+
+.subtitulo {
+	font-size: 50px;
+}
+.botao {
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.botao:hover {
+	background-color: rgba(100,0,0.7);
+}
+.lista {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 80px;
+}
+.lista li {
+	display: inline;
+}
+.lista a {
+	color: white;
+	font-size: 25px;
+}
